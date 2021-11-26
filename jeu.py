@@ -901,10 +901,10 @@ def main(u=40, niv=niv, level=1, score=0, lives=3):
         #     pygame.draw.rect(ma_surface, couleur.red, char.close_box[y], 1)
 
         # affihage rectangle hitbox
-        pygame.draw.rect(ma_surface, couleur.red, char.hitbox_bottom, 1)
-        pygame.draw.rect(ma_surface, couleur.red, char.hit_left, 1)
-        pygame.draw.rect(ma_surface, couleur.red, char.hit_right, 1)
-        pygame.draw.rect(ma_surface, couleur.red, char.hit_top, 1)
+        # pygame.draw.rect(ma_surface, couleur.red, char.hitbox_bottom, 1)
+        # pygame.draw.rect(ma_surface, couleur.red, char.hit_left, 1)
+        # pygame.draw.rect(ma_surface, couleur.red, char.hit_right, 1)
+        # pygame.draw.rect(ma_surface, couleur.red, char.hit_top, 1)
         if char.angel == True:
             ma_surface.blit(char.angel_sprite, (char.angel_x - 10, char.angel_y))
 
